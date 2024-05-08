@@ -1,0 +1,14 @@
+
+
+Your Mad Lib Story: The <story-name> in the <land-type> ...
+
+In the <land-type> of <name-of-location>, a <animal1> named <animal1-name> was feeling very <emotion1>. <animal1-name> had lost their <object>.
+
+Suddenly, a <animal2> appeared. 'I will help you find your <object>! ', <animal2-name> the <animal2> said.
+Together, <animal2-name> and <animal1-name> journeyed through the <adjective> <land-type> and faced the <weather_description> weather conditions. 
+They looked endlessly for the <object>.
+
+Finally, they found the <object> hidden via a <hiding-place>. <animal1-name> was so <emotion2> and thanked <animal2-name>. 
+They were forever friends and lived happily ever after in <name-of-location> sharing the <object>....
+
+Authored by: <your name>
