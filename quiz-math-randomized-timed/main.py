@@ -12,8 +12,8 @@ import time
 # write variables will use as constants and change through out the quiz
 
 OPERATORS = ['+', '-', '*']
-MIN_OPERAND = 3
-MAX_OPERAND = 12
+MIN_OPERAND = 2
+MAX_OPERAND = 15
 TOTAL_PROBLEMS = 10
 
 # generate an individual expression 
