@@ -6,7 +6,8 @@ In the <land-type> of <name-of-location>, a <first-animal> named <first-animal-n
 <first-animal-name> had lost their <object>.
 
 Suddenly, a <second-animal> appeared. 'I will help you find your <object>! ', <second-animal-name> -the <second-animal>- said.
-Together, <second-animal-name> and <first-animal-name> journeyed through the <descriptive-land-word> <land-type> and faced the <weather_conditions> weather conditions. 
+Together, <second-animal-name> and <first-animal-name> journeyed through the <descriptive-land-word> <land-type> and 
+faced the <weather_conditions> weather conditions. 
 They looked endlessly for the <describe-object> <object>.
 
 Finally, they found the <object> hidden via <hiding-place>. 
