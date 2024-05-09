@@ -3,8 +3,10 @@
         Utilize a base story.txt file and update the <words> to 
         the user input choices. 
         Create an updated file with the users version of the story.
-
+        Save the file under a unique file name in same folder.
+        Print the story for the user.
 """
+
 print('Welcome to Story Time')
 print('With a little help and a few questions, you will generate your own story and save it to a uniquely named file. \n')
 
