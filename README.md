@@ -12,3 +12,5 @@ Just having fun in Python.
 4- Unique Password - dynamic password generator
 
 5- Timer with Alarm
+
+6- WPM Speed Typing Test
