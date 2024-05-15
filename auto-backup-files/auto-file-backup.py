@@ -1,6 +1,10 @@
 """
-    Automated File Backup
+    Automated File Backups
     pip install schedule
+    use: schedule, shutil, os, time, datetime
+
+    Schedule daily back of for specific folder on you your harddrive 
+    and save that backup with file name by date.
 
 """
 import os
@@ -9,8 +13,8 @@ import datetime
 import schedule
 import time
 
-source_dir = "C:/Users/Rob/Pictures/Screenshots"
-destination_dir = "C:/Users/Rob/Desktop/Backups"
+source_dir = "C:/Users/Users/Pictures/Screenshots"                                                     # specific to your options
+destination_dir = "C:/Users/Users/Desktop/Backups"                                                     # specific to your options
 
 def copy_folder_to_directory(source, dest) :
     today = datetime.date.today()
@@ -22,7 +26,7 @@ def copy_folder_to_directory(source, dest) :
     except :
         print(f'Folder already exists in: {dest}')
 
-schedule.every().day.at('11:14').do(lambda: copy_folder_to_directory(source_dir, destination_dir))
+schedule.every().day.at('11:14').do(lambda: copy_folder_to_directory(source_dir, destination_dir))     # specific to your options
 
 while True :
     schedule.run_pending()
