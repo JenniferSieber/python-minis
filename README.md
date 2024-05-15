@@ -14,3 +14,5 @@ Just having fun in Python.
 5- Timer with Alarm
 
 6- WPM Speed Typing Test
+
+7- Automated File Backups
