@@ -13,8 +13,8 @@ import datetime
 import schedule
 import time
 
-source_dir = "C:/Users/Users/Pictures/Screenshots"                                                     # specific to your options
-destination_dir = "C:/Users/Users/Desktop/Backups"                                                     # specific to your options
+source_dir = "C:/Users/_USERNAME_/Pictures/Screenshots"                                                     # specific to your options
+destination_dir = "C:/User/_USERNAME_/Desktop/Backups"                                                     # specific to your options
 
 def copy_folder_to_directory(source, dest) :
     today = datetime.date.today()
