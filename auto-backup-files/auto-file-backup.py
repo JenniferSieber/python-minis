@@ -3,7 +3,7 @@
     pip install schedule
     use: schedule, shutil, os, time, datetime
 
-    Schedule daily back of for specific folder on you your harddrive 
+    Schedule daily backup for specific folder on you your harddrive 
     and save that backup with file name by date.
 
 """
