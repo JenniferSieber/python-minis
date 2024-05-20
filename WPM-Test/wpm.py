@@ -9,14 +9,12 @@ from curses import wrapper
 import time 
 import random
 
-
 def start_screen(stdscr) :
     stdscr.clear() 
     stdscr.addstr('Get your Words Per Minute Typing score!\n')
     stdscr.addstr('\nPress any key to begin! ')
     stdscr.refresh() 
     stdscr.getch()
-
 
 def display_text(stdscr, target, current, wpm=0) :
     stdscr.addstr(target)
@@ -29,13 +27,11 @@ def display_text(stdscr, target, current, wpm=0) :
             color = curses.color_pair(2)
         stdscr.addstr(0, i, char, color)
 
-
 def load_target_line() :
     with open('text.txt', 'r') as f :
         lines = f.readlines()
         return random.choice(lines).strip() 
     
-
 def wpm_test(stdscr) :
     target = load_target_line()
     current_chars = []
@@ -66,8 +62,7 @@ def wpm_test(stdscr) :
             if len(current_chars) > 0 :
                 current_chars.pop()       
         elif len(current_chars) < len(target) :
-            current_chars.append(key) 
-       
+            current_chars.append(key)    
 
 def main(stdscr) :
     curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)
