@@ -1,7 +1,8 @@
 """
         Dream Home Goals
             Based on cost of home and yearly salary,
-            set your down payment and savings goals.
+            adjusted for semi-annual raises.
+            Set your down payment and savings goals.
             Receive details on how long it will take
             to reach your goals.
 """
