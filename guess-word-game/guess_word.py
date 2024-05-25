@@ -26,7 +26,7 @@ print('\n👾 Guess the Word Game 👾\n'.upper())
 print('The rules: You win if you can guess the word within 10 guesses! One Letter per guess.\n')
 print(f'Games Played: {game_count} \n')
 
-""" Clear Terminal for new Game"""
+""" Clear terminal for new game """
 def clear_terminal():
     # Check the platform and execute the corresponding command
     if os.name == 'nt':  # For Windows
@@ -34,7 +34,7 @@ def clear_terminal():
     else:  # For Unix-based systems
         os.system('clear')
 
-""" Get Randomized word by Index of word list"""
+""" Get randomized word by index of word list """
 def get_random_word(words) : 
     random_index = random.randint(0, len(word_list) - 1)
     word_to_play = word_list[random_index]
@@ -49,13 +49,12 @@ def setup_game() :
         hidden.append(' 👾 ')
     return word, hidden
 
-""" Start the Game or close out the game """
+""" Start the game or close out the game """
 def start_game() :
     global player_wins
     global computer_wins
     global words_used 
     global game_count
-    
     play = input('Would you like to start a game? (Y/N) ').lower()
     if play == 'y' :
         game_count += 1
@@ -65,7 +64,6 @@ def start_game() :
         print(f'\nGame: {game_count}') 
         print(f'Player wins: {player_wins}   Computer wins: {computer_wins}\n') 
         play_game()
-
     elif play == 'n' :
         reset_scores = input('\nDo you want to reset scores? (Y/N) ').lower()
         if reset_scores == 'y' :
@@ -118,7 +116,7 @@ def validate_guess(guess, word) :
         print(f'Guess of `{guess}` is not a letter.')    
         return False
 
-""" Play the Game """
+""" Play the game """
 def play_game() :
     word, hidden = setup_game()
     words_used.append(word)
