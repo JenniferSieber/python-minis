@@ -31,7 +31,12 @@ word_list = [
         "synagogue", "heart", "velocity", "vent", "veranda", "vertical", "very", "vessel", "view", "cellphone", "dancer", "violet", "voice", 
         "volcano", "volume", "voyage", "wafer", "wagon", "computer", "garden", "wait", "walk", "warehouse", "warm", "wash", "waste", "desert", 
         "glacier", "witness", "water", "wave", "wax", "weather", "week", "weigh", "island", "paradise", "university", "south", "west", "wheel", 
-        "north", "dresser", "while", "whip", "brush", "comb", "runner", "white", "who", "why", "wide", "wife", "will", "wind", "number", "college", "tuesday", "window", "wine", "wing", "winter", "wire", "wise", "wish", "racecar", "missionary", "saturn", "without", "woman", "wonder", "wood", "word", "work", "racetrack", "internet", "world", "worry", "worth", "would", "write", "wrong", "year", "trailer", "vacation", "yellow", "yes", "yesterday", "yet", "young", "chair", "table", "hospital", "movies", "zero", "zone", "zoo", "cabinet", "closet", "bedroom", "doorknob", "stockings", "zeppelin", "piano", "guitar", "trumpet", "heaven", "venus", "jupiter", "neptune", "breeze", "pluto", "rocket", "spaceship", "satellite"
+        "north", "dresser", "while", "whip", "brush", "comb", "runner", "white", "who", "why", "wide", "wife", "will", "wind", "number", "college",
+        "tuesday", "window", "wine", "wing", "winter", "wire", "wise", "wish", "racecar", "missionary", "saturn", "without", "woman", "wonder", 
+        "wood", "word", "work", "racetrack", "internet", "world", "worry", "worth", "would", "write", "wrong", "year", "trailer", "vacation", 
+        "yellow", "yes", "yesterday", "yet", "young", "chair", "table", "hospital", "movies", "zero", "zone", "zoo", "cabinet", "closet", 
+        "bedroom", "doorknob", "stockings", "zeppelin", "piano", "guitar", "trumpet", "heaven", "venus", "jupiter", "neptune", "breeze", "pluto", 
+        "rocket", "spaceship", "satellite"
 ]
 
 letters = string.ascii_lowercase
