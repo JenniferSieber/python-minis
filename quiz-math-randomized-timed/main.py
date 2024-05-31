@@ -26,6 +26,7 @@ def generate_problem() :
 
     return expr, answer
 
+
 # start the quiz process
 def quiz_generation(greet_str = 'Welcome to the Math Quiz!') :
     print(greet_str)
@@ -50,6 +51,7 @@ def quiz_generation(greet_str = 'Welcome to the Math Quiz!') :
         if accident == 'yes' :
             quiz_generation('Try to create a Randomized Timed Math Quiz -again.')
 
+# start the quiz and quiz timer
 def start_quiz(pct) :
     incorrect = 0
     print('Are you ready to start the quiz timer? ')
