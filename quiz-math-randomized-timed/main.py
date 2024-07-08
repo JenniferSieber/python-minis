@@ -57,9 +57,7 @@ def start_quiz(pct) :
     print('Are you ready to start the quiz timer? ')
     print('Timer will `start` immediately after pressing Enter key.')
     timer_start = input('START? (press ENTER key)   ').lower()
-
     start_time = time.time()
-
     if not pct :
         pct = TOTAL_PROBLEMS
     for i in range(pct) :
@@ -77,7 +75,6 @@ def start_quiz(pct) :
                 break
             print('Incorrect, try again: ')
             incorrect += 1
-
     end_time = time.time()
     time_elapsed = round(end_time - start_time)  
     print()
